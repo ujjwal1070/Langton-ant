@@ -1,0 +1,70 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Langton's ant</title>
+    <!-- <script language="javascript" type="text/javascript" src="libraries/p5.js"></script> -->
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.js"
+    ></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/addons/p5.dom.min.js"
+    ></script>
+
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="table.js"
+    ></script>
+    <script language="javascript" type="text/javascript" src="ant.js"></script>
+    <script
+      language="javascript"
+      type="text/javascript"
+      src="sketch.js"
+    ></script>
+
+    <!-- this line removes any default padding and style. you might only need one of these values set. -->
+    <style>
+      body {
+        padding: 0;
+        margin: 0;
+      }
+    </style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="w3-col m2">
+      <p>Meet Langton's ant</p>
+      <br />
+      <img
+        src="images/ant.jpg"
+        class="w3-circle"
+        style="height: 106px; width: 106px"
+        alt="Langton's ant"
+      />
+      <br />
+      <p>
+        This is a program that simulates the emerging behavior of Langton's ant.
+        More about this
+        <a
+          target="_blank"
+          href="https://www.youtube.com/watch?v=NWBToaXK5T0&ab_channel=Numberphile"
+        >
+          here</a
+        >.<br />
+        <br />
+        The ant is "destined" to follow a path called "The highway". Drag your
+        mouse around the canvas to set obstacles in its journey and see if you
+        can prevent it from following this path.
+      </p>
+    </div>
+  </body>
+</html>
